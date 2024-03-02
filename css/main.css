@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: o;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero__container{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+}
+.navbar__link{
+    text-decoration: none;
+    padding: 20px;
+}
+.navbar__btn{
+    width: Fixed (190px);
+height: Fixed (36px);
+top: 18px;
+left: 1210px;
+border-radius: 20px;
+gap: 16px;
+background: rgb(41, 41, 217);
+ color: white;
+ padding: 10px 30px;
+}
+.header__container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__img{
+    position: relative;
+
+}
+.img1{
+    position: absolute;
+    margin-top: -20px;
+    width: 70px;
+    height: 70px;
+    left: 230px;
+}
+.img2{
+    position: absolute;
+    left: 250px;
+    margin-top: -10px;
+    width: 150px;
+    height: 150px;
+}
+.img3{
+    position: absolute;
+    margin-top: -20px;
+    left:280px ;
+    width: 240px;
+    height: 240px;
+}
+h1{
+width: 200px;
+margin-left: -30px;
+font-size: 64px;
+
+}
+.header__title{
+    color: rgba(51, 117, 255, 1);
+    font-size: 70px;
+
+}
+.header__text{
+  margin-left: -20px;
+  width: 500px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.header__link{
+width: 200px;
+text-decoration: none;
+
+}
+.link__img{
+   margin-top: 200px;
+}
+.header__img_name{
+    width: 600px;
+    height: 500px;
+}
+
+
+.services__list{
+    list-style: none;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.services__item{
+    width: 380px;
+}
+.services__title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+   margin-left: 0;
+font-size: 40px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+width: 387px;
+height: 44px;
+
+}
+.services__title_name{
+    width: 359px;
+    margin-left: -10px;
+height: 32px;
+font-family: Unbounded;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+.services__text{
+    margin-left: -18px;
+    width: 301px;
+    height: 72px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.services__box_name{
+   margin-top: 100px;
+   position: relative;
+    width: 1200px;
+    height: 400px;
+    background-image: url(../image/disinfection-sanitization-spraying-900x450.png);
+}
+h3{
+    width: 400px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 50px;
+height: 144px;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+
+
+
+}
+.menu__title{
+    width: 380px;
+margin-left: 0;
+ margin-top: 60px;
+    font-size: 52px;
+}
+.menu__text{
+    width: 335px;
+    margin-left: 0;
+height: 48px;
+font-size: 18px;
+margin-bottom: 20px;
+
+}
+.services__text_name{
+    width: 400px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 200px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+
+}
+.services__button{
+    margin-top: 270px;
+margin-left: 600px;
+padding:  7px 20px;
+border: 1px solid transparent;
+border-radius: 10px;
+background: blue;
+color: white;
+}
+.menu__list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.menu__item{
+    position: relative;
+    width: 350px;
+    height: 340px;
+    background: rgba(243, 246, 246, 1);
+}
+h5{
+    font-size: 32px;
+    padding: 10px 30px;
+}
+.menu__text_name{
+    padding: 10px 30px;
+}
+.menu__img{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 120px;
+}
+.wrapper__container{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    margin-top: 100px;
+    background: radial-gradient(58.39% 328.01% at 51.32% 69.21%, #3DA0FC 0%, rgba(2, 227, 214, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+.wrapper__box{
+    width: 600px;
+}
+.wrapper__btn{
+    background: rgba(51, 117, 255, 1);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 8px 25px;
+    margin-left: 30px;
+}
+.section__list{
+    list-style: none;
+    width: 700px;
+}
+.section__container{
+    display: flex;
+    margin-top: 100px;
+}
+
+.section__span{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+ 
+}
+.section__title_name{
+    width: 400px;
+    font-size: 30px;
+    opacity: 70%;
+}
+.section__text{
+    width: 400px;
+}
+.section__hr1{
+    color: black;
+    height: 2px;
+}
+.section__hr{
+    color: black;
+
+}
+.footer__container{
+    margin-top: 100px;
+    background: radial-gradient(58.39% 328.01% at 51.32% 69.21%, #3DA0FC 0%, rgba(2, 227, 214, 0.2) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
+.footer__box{
+    display: flex;
+    align-items: center;
+}
+.footer__list{
+    list-style: none;
+    display: flex;
+    
+}
+.footer__text{
+    margin-left: 50px;
+   width: 400px;
+   font-size: 30px;
+}
+.kontakt__container{
+    margin-top: 70px;
+}
+.kotakt__box{
+  align-items: center;
+
+ display: flex;
+ 
+}
+.kontakt__img{
+    margin-right: 150px;
+    margin-left: 50px;
+}
+.kontakt__img1{
+    margin-left: 400px;
+}
+.kontakt__list{
+    margin-top: 60px;
+    display: flex;
+    max-width: 800px;
+    list-style: none;
+    justify-content: space-between;
+}
